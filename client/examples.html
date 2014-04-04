@@ -1,0 +1,30 @@
+   <head>
+      <title>A date range picker for Bootstrap</title>
+   </head>
+   
+
+   <body>
+       {{> hello}}
+      
+   {{> datepickerwidget}}
+
+
+   </body>
+
+
+<template name="hello">
+  <h1 id="pagetitle">Hello World!</h1>
+  {{greeting}}
+  <input type="button" value="Click" />
+</template>
+
+<template name="datepickerwidget">
+  <div class="container">
+            <div class="well" style="overflow: auto">
+               <div id="reportrange" class="pull-right" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
+                  <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                  <span></span> <b class="caret"></b>
+               </div>
+            </div>
+          </div>
+</template>
